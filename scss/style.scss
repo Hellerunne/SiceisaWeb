@@ -5,3 +5,13 @@
 @use 'components/typography';
 @use 'components/buttons';
 @use 'components/mixins';
+
+// IMPORT SECTIONS
+@use 'sections/navbar';
+@use 'sections/intro';
+@use 'sections/nosotros';
+@use 'sections/servicios';
+@use 'sections/clientes';
+@use 'sections/experiencia';
+@use 'sections/contacto';
+@use 'sections/footer';

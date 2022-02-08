@@ -11,9 +11,13 @@
     "web",
     "design"
   ],
-  "author": "ItzelPulido\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D \u001b[C\u001b[C\u001b[C\u001bPulido",
+  "author": "Itzel Pulido",
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.1.3"
   }
 }

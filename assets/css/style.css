@@ -11118,5 +11118,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.fb-button span i {
+  color: #fff;
+}
+
+.menu {
+  background: linear-gradient(to right, #1B2D49 0.77%, rgba(27, 45, 73, 0.8) 46.25%, rgba(27, 45, 73, 0.3) 100%);
+}
+.menu li {
+  padding: 0 0.7rem;
+}
+.menu li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=style.css.map */

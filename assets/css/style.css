@@ -11118,8 +11118,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.fb-button span i {
+.fb-button {
   color: #fff;
+}
+@media (max-width: 767.98px) {
+  .fb-button {
+    display: none;
+  }
+}
+.fb-button:hover {
+  color: #00A2ED;
+}
+.fb-button span i {
+  font-size: 1.2rem;
+}
+
+body {
+  background-color: #6c757d;
 }
 
 .menu {
@@ -11130,8 +11145,11 @@ textarea.form-control-lg {
 }
 .menu li a {
   color: #fff !important;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 600;
+}
+.menu li a:hover {
+  color: #00A2ED !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,12 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+
+
+body {
+   background-color: $gray-600;
+}
+
 .menu {
    @include gradient;
 
@@ -9,8 +15,13 @@
 
       a {
          color: $white !important;
-         text-transform: uppercase;
+         text-transform: capitalize;
          font-weight: 600;
+
+         &:hover {
+            color: $secondary !important;
+         }
+
       }
    }
 }

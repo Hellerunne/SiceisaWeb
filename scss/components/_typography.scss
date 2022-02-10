@@ -1,0 +1,35 @@
+@use '../custom' as *;
+
+.display-2 {
+   margin-bottom: 1rem;
+   color: $white;
+   font-family: 'Heebo', sans-serif;
+   
+   &--intro {
+      font-size: 2.225rem;
+      display: inline-block;
+      font-weight: 700;
+      @include media-breakpoint-up(md) {
+         font-size: 3rem;
+      }
+      
+   }
+
+   &--description {
+      font-size: 1rem;
+      display: block;
+      margin-top: 1.2rem;
+      line-height: 1.625rem;
+      
+      @include media-breakpoint-up(md) {
+         font-size: 1.125rem;
+      }
+   }
+   
+}
+
+.btn-rounded {
+   font-family: 'Heebo', sans-serif;
+   font-weight: 500;
+   font-size: 1.125rem;
+}

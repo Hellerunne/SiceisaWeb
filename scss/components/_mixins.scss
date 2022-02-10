@@ -4,3 +4,11 @@
 @mixin gradient {
    background: linear-gradient(to right, $primary 0.77%, rgba($primary, 0.8) 46.25%, rgba($primary, 0.3) 100%);
 }
+
+// ABSOLUTE
+@mixin absoluteCenter {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}

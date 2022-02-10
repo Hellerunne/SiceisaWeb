@@ -3,24 +3,18 @@
 
 
 
-body {
-   background-color: $gray-600;
-}
-
 .menu {
-   @include gradient;
+   @include media-breakpoint-down(md){
+      background-color: $primary;
+   }
 
    li {
       padding: 0 0.7rem;
 
       a {
          color: $white !important;
-         text-transform: capitalize;
+         text-transform: uppercase;
          font-weight: 600;
-
-         &:hover {
-            color: $secondary !important;
-         }
 
       }
    }

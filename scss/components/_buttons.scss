@@ -1,14 +1,14 @@
 @use '../custom' as *;
 
 .fb-button {
-   @include media-breakpoint-down(md){
+   @include media-breakpoint-down(lg){
       display: none;
    }
 
-   color: $white;
+   color: $light;
 
    &:hover {
-      color: $secondary;
+      color: $white;
    }
 
    span {
@@ -23,12 +23,21 @@
 }
 
 .btn-rounded {
+
+   font-family: 'Heebo', sans-serif;
+   font-weight: 500;
+   font-size: 1.125rem;
    color: $white;
    background-color: $secondary;
+;
    padding: 0.5rem 1.5rem;
    font-weight: 500;
-   margin: 0 0 7rem 0;
+   margin-bottom: 4rem;
    border-radius: 0.75rem;
+   
+   @include media-breakpoint-up(md) {
+      margin-bottom: 7rem;
+   }
 
    span {
       

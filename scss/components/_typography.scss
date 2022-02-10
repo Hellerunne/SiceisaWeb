@@ -1,5 +1,10 @@
 @use '../custom' as *;
 
+
+
+
+
+
 .display-2 {
    margin-bottom: 1rem;
    color: $white;
@@ -23,13 +28,14 @@
       
       @include media-breakpoint-up(md) {
          font-size: 1.125rem;
+         display: inline-block;
       }
    }
    
 }
 
-.btn-rounded {
-   font-family: 'Heebo', sans-serif;
-   font-weight: 500;
-   font-size: 1.125rem;
-}
+// .btn-rounded {
+//    font-family: 'Heebo', sans-serif;
+//    font-weight: 500;
+//    font-size: 1.125rem;
+// }

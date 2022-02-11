@@ -11147,7 +11147,9 @@ textarea.form-control-lg {
 }
 
 .fb-button {
+  font-size: 1.2rem;
   color: #D1DDF3;
+  text-decoration: none;
 }
 @media (max-width: 991.98px) {
   .fb-button {
@@ -11156,9 +11158,6 @@ textarea.form-control-lg {
 }
 .fb-button:hover {
   color: #fff;
-}
-.fb-button span i {
-  font-size: 1.2rem;
 }
 
 .btn-rounded {

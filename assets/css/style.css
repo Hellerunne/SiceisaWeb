@@ -11118,10 +11118,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Heebo", sans-serif;
+}
+
 .display-2 {
   margin-bottom: 1rem;
   color: #fff;
-  font-family: "Heebo", sans-serif;
 }
 .display-2--intro {
   font-size: 2.225rem;
@@ -11144,6 +11147,28 @@ textarea.form-control-lg {
     font-size: 1.125rem;
     display: inline-block;
   }
+}
+
+.display-3 {
+  margin: 3.5rem 1.5rem 2rem 1.5rem;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .display-3 {
+    text-align: start;
+    margin: 6.2rem 5rem 0rem 5rem;
+  }
+}
+.display-3--title {
+  font-size: 2.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #233989;
+  margin-bottom: 2rem;
+}
+.display-3--description {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .fb-button {
@@ -11182,7 +11207,6 @@ textarea.form-control-lg {
 }
 
 .menu {
-  font-family: "Heebo", sans-serif;
   background-color: rgba(27, 45, 73, 0.95);
 }
 .menu .navbar-brand {
@@ -11209,12 +11233,16 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  padding: 10rem 0 0 0;
+  padding: 12rem 0 0 0;
   width: 100%;
-  height: 100%;
+  height: 640px;
   background: linear-gradient(to right, #1B2D49 0%, rgba(27, 45, 73, 0.95) 50%, rgba(27, 45, 73, 0.7) 100%), url(../../img/intro.jpg);
   background-position: center;
   background-size: cover;
+}
+
+.nosotros-section img {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

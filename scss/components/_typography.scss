@@ -2,13 +2,15 @@
 
 
 
-
+body {
+   font-family: 'Heebo', sans-serif;
+}
 
 
 .display-2 {
    margin-bottom: 1rem;
    color: $white;
-   font-family: 'Heebo', sans-serif;
+   
    
    &--intro {
       font-size: 2.225rem;
@@ -34,8 +36,27 @@
    
 }
 
-// .btn-rounded {
-//    font-family: 'Heebo', sans-serif;
-//    font-weight: 500;
-//    font-size: 1.125rem;
-// }
+.display-3 {
+   
+   margin: 3.5rem 1.5rem 2rem 1.5rem;
+   text-align: center;
+
+   @include media-breakpoint-up(lg) {
+      text-align: start;
+      margin: 6.2rem 5rem 0rem 5rem;
+   }
+
+   &--title {
+      font-size: 2.125rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: $blue;
+      margin-bottom: 2rem;
+   }
+
+   &--description {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}
+

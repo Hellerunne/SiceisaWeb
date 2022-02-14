@@ -11233,16 +11233,12 @@ body {
 }
 
 .intro-section {
-  padding: 12rem 0 0 0;
+  padding: 10rem 0 0 0;
   width: 100%;
   height: 640px;
   background: linear-gradient(to right, #1B2D49 0%, rgba(27, 45, 73, 0.95) 50%, rgba(27, 45, 73, 0.7) 100%), url(../../img/intro.jpg);
   background-position: center;
   background-size: cover;
-}
-
-.nosotros-section img {
-  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

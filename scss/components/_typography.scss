@@ -62,3 +62,13 @@ body {
    
 }
 
+// CARD TITLES UNDERLINE
+.card-title-line::after {
+   content: "";
+   width: 13.75rem;
+   height: 0.2rem;
+   display: block;
+   background-color: $secondary;
+   margin: 0.375rem auto;
+
+}

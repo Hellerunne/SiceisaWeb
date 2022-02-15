@@ -1,0 +1,38 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.servicios-section {
+
+   margin-top: 5rem;
+   
+   .card {
+      text-align: center;
+      background-color: $primary;
+      color: $white;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+
+      .card-title {
+         font-size: 1.3125rem;
+         font-weight: 500;
+         text-transform: uppercase;
+         margin-top: 1.5rem;
+         
+      }
+
+      .card-text {
+         font-size: 0.75;
+         font-weight: 300;
+         margin-top: 1.125rem;
+         margin-bottom: 1rem;
+      }
+      
+      img {
+         border-radius: 10px 10px 0 0;
+         height: 12.5rem;
+         width: auto;
+         object-fit: cover;
+
+      }
+   }
+}

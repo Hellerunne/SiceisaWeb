@@ -2,16 +2,18 @@
 
 
 .fb-button {
-   @include media-breakpoint-down(lg){
-      display: none;
-   }
 
+   display: none;
    font-size: 1.2rem;
    color: $light;
    text-decoration: none;
 
    &:hover {
       color: $white;
+   }
+
+   @include media-breakpoint-up(lg) {
+      display: none;
    }
 
 }

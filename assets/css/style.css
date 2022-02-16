@@ -11210,26 +11210,32 @@ body {
   font-size: 1.625rem;
   font-weight: 500;
   color: #fff;
-  margin-top: 4.25rem;
+  margin-top: 3rem;
   margin-bottom: 2.3rem;
 }
+@media (min-width: 992px) {
+  .contacto-section--form h3 {
+    margin-top: 4.25rem;
+  }
+}
 .contacto-section--form .form-label {
-  color: #fff;
+  color: #D1DDF3;
   font-weight: 300;
 }
 
 .fb-button {
+  display: none;
   font-size: 1.2rem;
   color: #D1DDF3;
   text-decoration: none;
 }
-@media (max-width: 991.98px) {
+.fb-button:hover {
+  color: #fff;
+}
+@media (min-width: 992px) {
   .fb-button {
     display: none;
   }
-}
-.fb-button:hover {
-  color: #fff;
 }
 
 .btn-rounded {

@@ -11224,18 +11224,18 @@ body {
 }
 
 .fb-button {
-  display: none;
+  position: relative;
   font-size: 1.2rem;
   color: #D1DDF3;
   text-decoration: none;
 }
+@media (max-width: 991.98px) {
+  .fb-button {
+    display: none !important;
+  }
+}
 .fb-button:hover {
   color: #fff;
-}
-@media (min-width: 992px) {
-  .fb-button {
-    display: none;
-  }
 }
 
 .btn-rounded {

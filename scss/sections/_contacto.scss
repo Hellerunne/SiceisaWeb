@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+.contacto-section {
+   
+   background-color: $primary;
+   
+
+   &--info {
+    
+     
+
+      dt {
+        margin-bottom: 2.25rem;
+      }
+
+      dd {
+         margin-bottom: 2.25rem;
+      }
+   }
+
+   &--form {
+      
+      
+   }
+}

@@ -78,6 +78,7 @@ body {
 
 .contacto-section {
 
+   padding: 0 1.5rem 0 1.5rem;
 
    &--info {
 
@@ -86,8 +87,12 @@ body {
       font-size: 1.625rem;
       font-weight: 500;
       color: $white;
-      margin-top: 4.25rem;
+      margin-top: 1rem;
       margin-bottom: 2.3rem;
+
+      @include media-breakpoint-up(lg) {
+         margin-top: 2rem;
+      }
 
       }
 
@@ -128,7 +133,7 @@ body {
          margin-bottom: 2.3rem;
 
          @include media-breakpoint-up(lg) {
-            margin-top: 4.25rem;
+            margin-top: 2rem;
          }
          
 
@@ -141,5 +146,7 @@ body {
          font-weight: 300;
       }
    }
+
+  
 }
 

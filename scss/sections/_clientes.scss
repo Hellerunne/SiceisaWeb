@@ -2,6 +2,7 @@
 
 .clientes-section {
 
+   margin-bottom: 5rem;
 
    &__logo-box {
       max-width: 100%;
@@ -10,6 +11,10 @@
       padding: 0.5rem;
       text-align: center;
       position: relative;
+
+      @include media-breakpoint-up(lg) {
+         height: 4rem;
+      }
       
       img {
          height: 100%;

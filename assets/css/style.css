@@ -11364,4 +11364,22 @@ body {
   margin-bottom: 2.25rem;
 }
 
+.footer-section a {
+  list-style-type: none;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #adb5bd;
+}
+.footer-section a:hover {
+  color: #fff;
+}
+.footer-section .home-button {
+  font-weight: 400;
+  color: #adb5bd;
+}
+.footer-section .home-button i {
+  display: inline-block;
+}
+
 /*# sourceMappingURL=style.css.map */

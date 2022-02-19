@@ -1,0 +1,30 @@
+@use '../custom' as *;
+
+.footer-section {
+
+   a {
+      
+      list-style-type: none;
+      font-weight: 300;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $gray-500;
+
+      &:hover {
+         color: $white;
+      }
+
+   }
+
+
+   .home-button {
+      
+      font-weight: 400;
+      color: $gray-500;
+
+      i {
+         display: inline-block;
+      }
+   }
+}
+

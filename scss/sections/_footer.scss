@@ -21,10 +21,14 @@
       
       font-weight: 400;
       color: $gray-500;
+   }
+}
 
-      i {
-         display: inline-block;
-      }
+.social {
+
+   a {
+      font-size: 1.5rem;
+      padding: 1rem;
    }
 }
 
